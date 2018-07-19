@@ -25,6 +25,3 @@ function iLoveTheBeatles(number) {
   } while (number[i] < 15 &&maybeTrue())
   return array
 }
-
-
-function
