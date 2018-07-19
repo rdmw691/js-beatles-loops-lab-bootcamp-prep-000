@@ -17,6 +17,10 @@ function johnLennonFacts(facts) {
   } return array
 }
 
+function maybeTrue() {
+  return Math.random () >=0.5
+}
+
 function iLoveTheBeatles(number) {
   let i = 0
   var array = []
