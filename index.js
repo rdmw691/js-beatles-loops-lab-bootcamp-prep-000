@@ -22,11 +22,10 @@ function maybeTrue() {
 }
 
 function iLoveTheBeatles(number) {
-  let i = 0
   var array = []
   do {
     array.push("I love the Beatles!")
-    i++
-  } while (number[i] < 15 && maybeTrue())
+    number++
+  } while (number < 15)
   return array
 }
